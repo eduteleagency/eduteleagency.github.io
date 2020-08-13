@@ -164,12 +164,44 @@ https://templatemo.com/tm-516-known
 
   #team,
   #testimonial {
+    text-align: center;
     background: #f9f9f9;
   }
 
-  #team, 
-  #testimonial {
-    text-align: center;
+  #team .team-thumb #team-image-one{
+    background: url(../images/author-image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    width: 100%;
+  }
+
+  #team .team-thumb #team-image-two{
+    background: url(../images/author-image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    width: 100%;
+  }
+
+  #team .team-thumb #team-image-three{
+    background: url(../images/author-image3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    width: 100%;
+  }
+
+  #team .team-thumb #team-image-four{
+    background: url(../images/author-image4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    width: 100%;
   }
   
   #google-map iframe {
@@ -469,10 +501,6 @@ https://templatemo.com/tm-516-known
 
   .team-info {
     padding: 20px 30px;
-  }
-
-  .team-image img {
-    width: 100%;
   }
 
   .team-thumb .social-icon {
